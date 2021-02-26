@@ -1,0 +1,30 @@
+{
+  "name": "api_2801",
+  "version": "1.0.0",
+  "description": "Api criada a partir da aula do dia 28/01/2021.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aluiziocatao/api_2801.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aluiziocatao/api_2801/issues"
+  },
+  "homepage": "https://github.com/aluiziocatao/api_2801#readme",
+  "keywords": [],
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mysql2": "^2.2.5",
+    "sequelize": "^6.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7",
+    "sequelize-cli": "^6.2.0"
+  }
+}
